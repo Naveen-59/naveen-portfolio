@@ -5,33 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title> Kanasani Naveen – Cybersecurity Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
   <style>
-    body { background-color: #000; color: #fff; font-family: Arial, sans-serif; }
-    .navbar { background-color: rgba(0, 0, 0, 0.95); }
-    .navbar-brand, .nav-link { font-size: 1.25rem; padding: 0.75rem 1rem; }
-    .section-title { border-bottom: 2px solid #fff; display: inline-block; padding-bottom: 5px; margin-bottom: 20px; font-size: 2rem; font-weight: bold; }
-    .badge { background-color: #111; }
-    .card { background-color: #111; color: #fff; }
-    .card:hover { transform: translateY(-5px); transition: 0.3s; }
-    footer { border-top: 1px solid #444; }
-    .about-text { font-size: 1.25rem; max-width: 900px; margin: 0 auto; line-height: 1.8; }
-
-    /* WhatsApp Styles */
-    .whatsapp-btn { background: #25D366; border: none; color: #000; font-weight: 700; }
-    .whatsapp-btn:hover { filter: brightness(0.95); }
-    .form-control, .form-select { background-color: #0f0f0f; color: #fff; border: 1px solid #333; }
-    .form-control:focus { background-color: #121212; color: #fff; border-color: #25D366; box-shadow: 0 0 0 .2rem rgba(37,211,102,.25); }
-
-    /* Floating WhatsApp Quick Action */
-    .wa-float {
-      position: fixed; right: 18px; bottom: 18px; z-index: 1040;
-      display: inline-flex; align-items: center; gap: .5rem;
-      background: #25D366; color: #000; border-radius: 999px; padding: .6rem 1rem;
-      font-weight: 700; text-decoration: none; box-shadow: 0 8px 20px rgba(0,0,0,.35);
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
     }
-    .wa-float:hover { filter: brightness(.95); color: #000; }
-    .wa-float .bi { font-size: 1.25rem; }
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.95);
+    }
+    .navbar-brand,
+    .nav-link {
+      font-size: 1.25rem;
+      padding: 0.75rem 1rem;
+    }
+    .section-title {
+      border-bottom: 2px solid #fff;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .badge {
+      background-color: #111;
+    }
+    .card {
+      background-color: #111;
+      color: #fff;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+    }
+    footer {
+      border-top: 1px solid #444;
+    }
+    .about-text {
+      font-size: 1.25rem;
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
   </style>
 </head>
 <body>
@@ -60,10 +75,12 @@
 <!-- Header -->
 <header class="text-center py-5">
   <h1 class="display-4 fw-bold">Kanasani Naveen</h1>
-  <p class="lead">Cybersecurity Enthusiast</p>
-  <img src="profile.jpg" alt="Naveen Kanasani" class="img-fluid rounded-circle mt-4" style="width: 220px; height: 220px; object-fit: cover; border: 5px solid white;">
-  <div class="mt-4">
-    <a href="Naveen_Kanasani_Resume.pdf" download class="btn btn-outline-light btn-lg">📄 Download Resume</a>
+  <p class="lead">Cybersecurity Enthusiast  </p>
+<img src="profile.jpg" alt="Naveen Kanasani" class="img-fluid rounded-circle mt-4" style="width: 220px; height: 220px; object-fit: cover; border: 5px solid white;">
+<div class="mt-4">
+    <a href="Naveen_Kanasani_Resume.pdf" download class="btn btn-outline-light btn-lg">
+      📄 Download Resume
+    </a>
   </div>
 </header>
 
@@ -71,7 +88,7 @@
 <section id="about" class="py-5 text-center">
   <div class="container">
     <h2 class="section-title">About Me</h2>
-    <p class="about-text">Cybersecurity enthusiast skilled in network security, SIEM tools, and real-time incident response. Passionate about detecting and mitigating cyber threats with hands-on experience in VAPT, SOC operations, and using tools like Wireshark, Splunk, and Burp Suite. Proficient in Python and SQL with a strong foundation in cybersecurity principles</p>
+    <p class="about-text">Cybersecurity enthusiast skilled in network security, SIEM tools, and real-time incident response. Passionate about detecting and mitigating cyber threats with hands-on experience in VAPT, SOC operations, and using tools like Wireshark, Splunk, and Burp Suite. Proficient in Python and SQL with a strong foundation in cybersecurity principles</p> </div></p>
   </div>
 </section>
 
@@ -87,11 +104,14 @@
   </div>
 </section>
 
+
+
 <!-- Projects Section -->
 <section id="projects" class="py-5 text-center">
   <div class="container">
     <h2 class="section-title">Projects</h2>
     <div class="row mt-4">
+    
       <!-- Web Fort Security -->
       <div class="col-md-6">
         <div class="card p-3 mb-4 text-start">
@@ -117,6 +137,7 @@
           </ul>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -126,25 +147,55 @@
   <div class="container">
     <h2 class="section-title">Skills</h2>
     <div class="row justify-content-center mt-4">
+
       <!-- Column 1 -->
-      <div class="col-md-2 col-6 mb-2"><span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">SOC Operations</span></div>
-      <div class="col-md-2 col-6 mb-2"><span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Splunk</span></div>
+      <div class="col-md-2 col-6 mb-2">
+        <span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">SOC Operations</span>
+      </div>
+      <div class="col-md-2 col-6 mb-2">
+        <span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Splunk</span>
+      </div>
+
       <!-- Column 2 -->
-      <div class="col-md-2 col-6 mb-2"><span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Wireshark</span></div>
-      <div class="col-md-2 col-6 mb-2"><span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Linux</span></div>
+      <div class="col-md-2 col-6 mb-2">
+        <span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Wireshark</span>
+      </div>
+      <div class="col-md-2 col-6 mb-2">
+        <span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Linux</span>
+      </div>
+
       <!-- Column 3 -->
-      <div class="col-md-2 col-6 mb-2"><span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Nmap</span></div>
-      <div class="col-md-2 col-6 mb-2"><span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Threat Monitoring</span></div>
+      <div class="col-md-2 col-6 mb-2">
+        <span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Nmap</span>
+      </div>
+      <div class="col-md-2 col-6 mb-2">
+        <span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Threat Monitoring</span>
+      </div>
+
       <!-- Column 4 -->
-      <div class="col-md-2 col-6 mb-2"><span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Linux</span></div>
-      <div class="col-md-2 col-6 mb-2"><span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Windows</span></div>
+      <div class="col-md-2 col-6 mb-2">
+        <span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Linux</span>
+      </div>
+      <div class="col-md-2 col-6 mb-2">
+        <span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Windows</span>
+      </div>
+
       <!-- Column 5 -->
-      <div class="col-md-2 col-6 mb-2"><span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Burp Suite</span></div>
-      <div class="col-md-2 col-6 mb-2"><span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Python</span></div>
-      <div class="col-md-2 col-6 mb-2"><span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">SQL</span></div>
+      <div class="col-md-2 col-6 mb-2">
+        <span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Burp Suite</span>
+      </div>
+      <div class="col-md-2 col-6 mb-2">
+        <span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">Python</span>
+      </div>
+      <div class="col-md-2 col-6 mb-2">
+        <span class="badge py-2 px-3 w-100 bg-dark text-white fw-medium small">SQL</span>
+      </div>
+
     </div>
   </div>
 </section>
+
+
 
 <!-- Certifications Section -->
 <section id="certifications" class="py-5 text-center">
@@ -152,8 +203,11 @@
     <h2 class="section-title">Certifications</h2>
     <p class="mt-3 mb-4">
       You can view all my certifications in one place here:<br>
-      <a href="https://drive.google.com/drive/folders/16tOIUtG20sTY8u4E6HwCyqR3zzLZewWd?usp=sharing" target="_blank" class="btn btn-outline-light mt-3">View All Certificates</a>
+      <a href="https://drive.google.com/drive/folders/16tOIUtG20sTY8u4E6HwCyqR3zzLZewWd?usp=sharing" target="_blank" class="btn btn-outline-light mt-3">
+        View All Certificates
+      </a>
     </p>
+    
     <ul class="list-unstyled text-start mx-auto" style="max-width: 600px; font-size: 1.1rem; line-height: 2;">
       <li>✔️ Google Cybersecurity Professional Certificate</li>
       <li>✔️ IBM – Penetration Testing & Incident Response</li>
@@ -162,17 +216,20 @@
       <li>✔️ Career Essentials in Cybersecurity learning path by Microsoft </li>
       <li>✔️ Introduction to Cyber Attack</li>
       <li>✔️ Cyber Security Fundamentals – University of London</li>
-      <li>✔️ Supraja Technologies</li>
-      <li>✔️ Supraja Technologies Internship</li>
+         <li>✔️  Supraja Technologies</li>
+      <li>✔️Supraja Technologies Internship</li>
     </ul>
   </div>
 </section>
+
+
 
 <!-- Experience Section -->
 <section id="experience" class="py-5 text-center">
   <div class="container">
     <h2 class="section-title">Experience</h2>
     <div class="row mt-4">
+      
       <!-- Experience 1 -->
       <div class="col-md-4">
         <div class="card p-3 mb-4 h-100 text-start">
@@ -180,6 +237,7 @@
           <p class="card-text">Conducted VAPT on 10+ web apps using tools like Burp Suite, Nmap, and Wireshark. Improved network security posture significantly.</p>
         </div>
       </div>
+
       <!-- Experience 2 -->
       <div class="col-md-4">
         <div class="card p-3 mb-4 h-100 text-start">
@@ -187,77 +245,35 @@
           <p class="card-text">Worked on simulations for malware, DDoS, and phishing scenarios. Created reports and received strong feedback from mentors.</p>
         </div>
       </div>
+
       <!-- Experience 3 -->
       <div class="col-md-4">
         <div class="card p-3 mb-4 h-100 text-start">
-          <h4 class="card-title">Network Security Associate (AICTE & Edu Skills)</h4>
-          <p class="card-text">Detected and mitigated security threats, optimized system performance, and ensured compliance using industry-standard tools and techniques.</p>
-        </div>
+          <h4 class="card-title">Network Security Associate  (AICTE & Edu Skills)</h4>
+          <p class="card-text">Detected and mitigated security threats, optimized system performance, and ensured compliance using industry-standard tools and techniques..</p>
+                  </div>
       </div>
+
     </div>
   </div>
 </section>
 
-<!-- Contact Section (Updated with WhatsApp form) -->
+<!-- Contact Section -->
 <section id="contact" class="py-5 text-center">
   <div class="container">
     <h2 class="section-title">Contact</h2>
-
-    <div class="row justify-content-center mt-4">
-      <div class="col-lg-8">
-        <div class="card p-4 text-start">
-          <h4 class="mb-3"><i class="bi bi-whatsapp"></i> Send me a message on WhatsApp</h4>
-          <p class="mb-4 text-white-50">Fill this form and it will open WhatsApp with your message ready to send. Works on mobile and desktop (WhatsApp Web).</p>
-
-          <form id="whForm" novalidate>
-            <div class="row g-3">
-              <div class="col-md-6">
-                <label for="name" class="form-label">Your Name</label>
-                <input type="text" id="name" class="form-control" placeholder="e.g., Priya Sharma" required maxlength="60">
-                <div class="invalid-feedback">Please enter your name.</div>
-              </div>
-              <div class="col-md-6">
-                <label for="email" class="form-label">Email (optional)</label>
-                <input type="email" id="email" class="form-control" placeholder="you@example.com" maxlength="80">
-                <div class="invalid-feedback">Please enter a valid email.</div>
-              </div>
-              <div class="col-12">
-                <label for="topic" class="form-label">Topic</label>
-                <select id="topic" class="form-select">
-                  <option value="General Inquiry" selected>General Inquiry</option>
-                  <option>Hiring / Opportunity</option>
-                  <option>Collaboration</option>
-                  <option>Project Help</option>
-                </select>
-              </div>
-              <div class="col-12">
-                <label for="message" class="form-label">Your Message</label>
-                <textarea id="message" class="form-control" rows="4" placeholder="Write your message here..." required maxlength="600"></textarea>
-                <div class="d-flex justify-content-between small mt-1">
-                  <span class="text-white-50">Max 600 characters</span>
-                  <span class="text-white-50" id="charCount">0 / 600</span>
-                </div>
-                <div class="invalid-feedback">Please write a message.</div>
-              </div>
-            </div>
-
-            <div class="d-flex align-items-center gap-3 mt-4">
-              <button type="submit" class="btn whatsapp-btn btn-lg">
-                <i class="bi bi-whatsapp me-2"></i>Send via WhatsApp
-              </button>
-              <span class="text-white-50 small">By clicking send, you'll be redirected to WhatsApp with a pre-filled message.</span>
-            </div>
-          </form>
-        </div>
-
-        <div class="mt-4" style="font-size: 1.05rem;">
-          <p class="mb-1"><strong>Full Name:</strong> Kanasani Naveen</p>
-          <p class="mb-1"><strong>Email:</strong> <a href="mailto:naveenkanasani96@gmail.com" class="text-white">naveenkanasani96@gmail.com</a></p>
-          <p class="mb-1"><strong>Phone:</strong> +91 9398579064</p>
-          <p class="mb-1"><strong>Location:</strong> Hyderabad, India</p>
-          <p class="mb-0"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kanasani-naveen/" target="_blank" class="text-white">linkedin.com/in/kanasani-naveen</a></p>
-        </div>
-      </div>
+    <div class="mt-4" style="font-size: 1.2rem;">
+      <p><strong>Full Name:</strong> Kanasani Naveen</p>
+      <p><strong>Email:</strong> <a href="mailto:naveenkanasani96@gmail.com" class="text-white">naveenkanasani96@gmail.com</a></p>
+      <p><strong>Phone:</strong> +91 9398579064</p>
+      <p><strong>Location:</strong> Hyderabad, India</p>
+      <p><strong>LinkedIn:</strong> 
+        <a href="https://www.linkedin.com/in/kanasani-naveen/" target="_blank" class="text-white">
+          linkedin.com/in/kanasani-naveen
+        </a>
+      </p>
+      <!-- Optional GitHub or portfolio link -->
+      <!-- <p><strong>GitHub:</strong> <a href="#" class="text-white">github.com/yourusername</a></p> -->
     </div>
   </div>
 </section>
@@ -267,80 +283,6 @@
   <p class="mb-0">&copy; 2025 Naveen Kanasani. All Rights Reserved.</p>
 </footer>
 
-<!-- Floating quick WhatsApp button -->
-<a class="wa-float" id="waQuick" href="#" aria-label="WhatsApp chat">
-  <i class="bi bi-whatsapp"></i><span class="d-none d-sm-inline"> Chat</span>
-</a>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-  // ======= CONFIGURE YOUR WHATSAPP NUMBER HERE =======
-  // Use full international format without plus sign or spaces
-  const WHATSAPP_NUMBER = '919398579064'; // +91 9398579064
-  // ================================================
-
-  const form = document.getElementById('whForm');
-  const nameEl = document.getElementById('name');
-  const emailEl = document.getElementById('email');
-  const topicEl = document.getElementById('topic');
-  const messageEl = document.getElementById('message');
-  const charCount = document.getElementById('charCount');
-  const waQuick = document.getElementById('waQuick');
-
-  // Live character counter
-  messageEl.addEventListener('input', () => {
-    charCount.textContent = `${messageEl.value.length} / 600`;
-  });
-
-  // Build WhatsApp URL with encoded text
-  function buildWhatsAppURL({ name, email, topic, message }) {
-    const lines = [
-      `Hello Naveen,`,
-      '',
-      `My name is ${name}${email ? ` (${email})` : ''}.`,
-      `Topic: ${topic}`,
-      '',
-      message,
-      '',
-      '— sent from your portfolio site'
-    ];
-    const text = lines.join('\n');
-    return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
-  }
-
-  // Basic form validation + open WhatsApp
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-
-    // Bootstrap-style validation
-    let valid = true;
-    if (!nameEl.value.trim()) { nameEl.classList.add('is-invalid'); valid = false; } else { nameEl.classList.remove('is-invalid'); }
-    if (emailEl.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailEl.value)) { emailEl.classList.add('is-invalid'); valid = false; } else { emailEl.classList.remove('is-invalid'); }
-    if (!messageEl.value.trim()) { messageEl.classList.add('is-invalid'); valid = false; } else { messageEl.classList.remove('is-invalid'); }
-
-    if (!valid) return;
-
-    const url = buildWhatsAppURL({
-      name: nameEl.value.trim(),
-      email: emailEl.value.trim(),
-      topic: topicEl.value,
-      message: messageEl.value.trim()
-    });
-
-    window.open(url, '_blank');
-  });
-
-  // Quick floating button opens a short hello
-  waQuick.addEventListener('click', (e) => {
-    e.preventDefault();
-    const url = buildWhatsAppURL({
-      name: 'Visitor',
-      email: '',
-      topic: 'Quick Chat',
-      message: 'Hi! I would like to connect.'
-    });
-    window.open(url, '_blank');
-  });
-</script>
 </body>
 </html>
